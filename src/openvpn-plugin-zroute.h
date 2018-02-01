@@ -7,6 +7,8 @@
 
 #include "zroute.h"
 
-struct plugin_context {};
+struct plugin_context {
+	plugin_log_t log;
+};
 
 #endif
